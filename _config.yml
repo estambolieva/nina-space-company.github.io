@@ -46,10 +46,6 @@ people:
   pic: katia
   position: :)
   
-- name: Heather Keenan
-  pic: heather
-  position: Lead Data Scientist
-  
 - name: Omar Nooreddin
   pic: omar
   position: Data Scientist
@@ -61,3 +57,7 @@ people:
 - name: Viola Ketelsen
   pic: viola
   position: Impact Management & Growth
+  
+- name: Heather Keenan
+  pic: heather
+  position: Lead Data Scientist
