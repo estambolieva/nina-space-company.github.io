@@ -63,6 +63,24 @@ a:active {
   font-style: italic;
   color: #666;
 }
+
+.section-title li{
+  list-style-type: none;
+  position: relative;
+  padding: 5px;  
+  padding-left: 125px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.section-title li:before {
+  content: "\2192 \0020";
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  left: 75px;
+}
+
 /*--
 	Header Start
 --*/
@@ -167,6 +185,18 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 40px;
   width: 100%;
 }
+#intro .block .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  size: 10px 20px;
+  padding: 2px 20px;
+}
+#intro .block a p {
+  
+  color: #fff;
+  
+}
+
 #intro .section-title {
   margin-bottom: 0px;
 }
@@ -184,7 +214,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
 }
 #service .service-item i {
-  font-size: 60px;
+  font-size: 100px;
   color: #4A4656;
 }
 #service .service-item h4 {
@@ -230,15 +260,15 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
   border: none;
-  background-color: #fff;
   font-size: 15px;
-  color: #333333;
+  background: #655E7A;
+  color: #fff;
   margin-top: 30px;
 }
 /*--
@@ -362,9 +392,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #clients-logo-section {
   padding-top: 30px;
   padding-bottom: 75px;
+  
 }
 #clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
+ 
+  object-fit: cover; 
+  padding: 1px 50px;
 }
 /*---------------------------------------------
 					Work Start
@@ -837,3 +870,4 @@ footer .footer-manu ul li a:hover {
   object-fit: cover; 
 
 }
+
